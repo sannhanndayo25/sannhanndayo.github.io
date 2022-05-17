@@ -12,17 +12,19 @@
     <script type="text/javascript">
     function zoom() {
 
-    }
 
 
-        var prompt_a = prompt("1つ目の数を入れてください");
-        var prompt_ｂ= prompt("２つ目の数を入れてください");
+        var elemeent1 = document.retEimemetById('int1')
+        var elemeent2 = document.retEimemetById('int2')
 
-        var result = parseInt(prompt_a) + parseInt(prompt_ｂ);
+
+
+        var result = parseInt(element1.value) + parseInt(element2.value);
 
 
 
         alert(result);
+      }
     </script>
 
   </body>
